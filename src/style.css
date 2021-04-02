@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-image: url(img/popwall-.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: rgba(3, 3, 3, 0.466); 
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    font-size: 25px;
+    color: rgb(228, 11, 11);
+    text-shadow: 1px 2px rgb(255, 255, 255);
+    margin: 50px 0px 20px 0px;
+    max-width: 1200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    width: 100vw;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+h1{
+    margin:auto;
+    display:block;
+    vertical-align: center;
+}
+p, h2{
+    color: #fff;
+}
+img{
+    display: flexbox;
+    align-items: center;
+    max-width: 220px;
+    min-width: 190px;
+}
+.input {
+    color:rgb(207, 20, 29);
+}
+
+#form-search{
+    margin-bottom: 1rem;
+}
+
+#search{
+    width: 760px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: rgb(28, 28, 29);
+    color: rgb(41, 40, 44);
+    background-color: rgba(182, 182, 182, 0.377);
+    border: 1px solid white;
+    border-radius: .25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn{
+    color: white;
+    background-color: rgb(20, 20, 20);
+    min-height: 39px;
+    font-weight: 400px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: .25rem;
+}
+
+#movies{
+    align-items: center;
+    display: flexbox;
+    justify-content: center;
+    padding: 40px;
+}

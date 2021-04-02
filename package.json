@@ -1,0 +1,21 @@
+{
+  "name": "shopping-cart",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShirleyRM/shopping-cart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShirleyRM/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/ShirleyRM/shopping-cart#readme"
+}
