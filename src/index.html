@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/79f9d30fc6.js" crossorigin="anonymous"></script>
     <title>Movie Store</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/new-favicon.png" />
 </head>
+
 <body>
-    <header>
-            <img src="img/Header_.png" alt="Movie Store">
-    </header>
+    <nav>
+        <img src="img/Header_.png" alt="Movie Store">
+        <div class="cart-icon" id="cart-icon" href="cart-view.html">
+            <i class="fas fa-shopping-cart" style="color:#FFFFFF; width:10px; height:10px;"></i> 
+        </div>
+
+    </nav>
     <main>
         <div class="welcome">
             <p>No esperes más 🙌 con <span>Movie Store</span> encuentra tus películas favoritas</p>
             <p>con un solo clic y procede a la compra! 🥳</p>
         </div>
         <div class="grid">
-            <div class="card-grid" id="card">
+            <div class="card-grid shoppingCartItemsContainer" id="card">
             </div>
         </div>
     </main>
-
-    <script src="main.js" type="module">
-    </script>
+    <script src="main.js" type="module"></script>
+    <script src="cart.js" type="module"></script>
 </body>
+
 </html>
