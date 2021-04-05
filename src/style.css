@@ -18,13 +18,15 @@ nav{
     width: 100%;
 }
 
-nav img{
+#logo{
     width: 30%;
     padding: 30px;
 }
-.cart-icon {
-    display: flex-end;
+
+#cart-icon {
+    justify-content: space-between;
 }
+
 .welcome{
     text-align: center;
     padding: 20px;
@@ -96,4 +98,19 @@ span{
 }
 span:hover{
     color: rgb(14, 69, 114);
+}
+.addToCart{
+    background-color: #daba50;
+    font-weight: bold;
+    font-size: 15px;
+    border-color:#daba50;
+    border-radius: .6em;
+    color:white;
+    width: 180px;
+    height:45px;
+    outline: none;
+}
+.addToCart:hover{
+    background-color: #2BB2BC;
+    border-color: #2BB2BC;
 }

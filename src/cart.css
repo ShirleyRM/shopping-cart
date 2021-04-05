@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{ 
+    align-items: center;
+    background-color:#08181ae3; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+p{
+    color:white;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+#logo{
+    width: 30%;
+    padding: 30px;
+    align-items: center;
+    position: center;
+}
+
+#cart-icon {
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-cart-total{
+    align-items: center;
+}
