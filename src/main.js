@@ -1,4 +1,5 @@
-fetch('http://www.omdbapi.com/?s=harry+potter&apikey=1d0a44db')
+// Consumiendo la api
+fetch('https://www.omdbapi.com/?s=name&apikey=1d0a44db')
 
   .then(response => response.json())
   .then(data => {
@@ -21,7 +22,7 @@ fetch('http://www.omdbapi.com/?s=harry+potter&apikey=1d0a44db')
       `
   }).join("") 
   })
-  .catch(err => console.log(err))
+//   .catch(err => console.log(err))
 
   const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
   addToShoppingCartButtons.forEach((addToCartButton) => {
