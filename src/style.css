@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-image: url(img/popwall.jpg);
@@ -13,14 +14,17 @@ body{
 nav{ 
     align-items: center;
     background-color:#08181ae3; 
-    display: flex;
     justify-content: center;
     width: 100%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding:0.5em;
+
 }
 
-#logo{
-    width: 30%;
-    padding: 30px;
+.logo img{
+    width: 40%;
+    display: flex-end;
 }
 
 #cart-icon {
@@ -93,6 +97,7 @@ p, h2, h3{
 h3:hover{
     color:#2BB2BC;
 }
+
 span{
     color:#2BB2BC;
 }
@@ -100,7 +105,7 @@ span:hover{
     color: rgb(14, 69, 114);
 }
 .addToCart{
-    background-color: #daba50;
+    background-color: #e2b933;
     font-weight: bold;
     font-size: 15px;
     border-color:#daba50;

@@ -16,7 +16,7 @@ fetch('https://www.omdbapi.com/?s=name&apikey=1d0a44db')
           <img src='${data.Poster}'></div>
           <div class="card-title"><h3><span>Title:</span> ${data.Title}</h3></div>
           <div class="card-content"><h3><span>Year:</span> ${data.Year}</h3></div>
-          <h3 class="card-price"<span>Price:</span> $ ${10}</h3>
+          <h3 class="card-price"><span>Price:</span> $ ${10}</h3>
           <button class="addToCart">Add To Cart</button>
       </div>
       `
@@ -49,7 +49,7 @@ fetch('https://www.omdbapi.com/?s=name&apikey=1d0a44db')
             <img src='${data.Poster}'></div>
             <div class="card-title"><h3><span>Title:</span> ${data.Title}</h3></div>
             <div class="card-content"><h3><span>Year:</span> ${data.Year}</h3></div>
-            <div class="card-price"<h3><span>Price:</span> $ ${10}</h3></div>
+            <div class="card-price"><h3><span>Price:</span> $ ${10}</h3></div>
          `;
       }
   }
