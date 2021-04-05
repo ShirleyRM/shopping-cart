@@ -1,5 +1,5 @@
 // Consumiendo la api
-fetch('http://www.omdbapi.com/?s=harry+potter&apikey=1d0a44db')
+fetch('https://www.omdbapi.com/?s=name&apikey=1d0a44db')
 
   .then(response => response.json())
   .then(data => {
