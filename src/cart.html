@@ -19,40 +19,39 @@
     <div class="shopping-cart">
         <div class="container">
             <h1>My Cart</h1>
-            <hr>
-            <div class="product-cart">
-                <div class="shopping-cart-header">
-                    <h3>Product:</h3>
-                </div>
-            </div>
-            <div class="price-items">
-                <div class="shopping-cart-header">
-                    <h3 class="price">Price:</h3>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="shopping-cart-header">
-                    <h3>Cant:</h3>
-                </div>
+            <div class="shopping-cart-header">
             </div>
         </div>
-        <!-- ? START SHOPPING CART ITEMS -->
-        <div class="shopping-cart-items shoppingCartItemsContainer">
+        <div class="price-items">
+            <div class="container">
+                <h3 class="price">Price:</h3>
+            </div>
         </div>
-        <!-- ? END SHOPPING CART ITEMS -->
+        <div class="col-4">
+            <div class="container">
+                <h3>Cant:</h3>
+            </div>
+        </div>
+    </div>
+    <!-- ? START SHOPPING CART ITEMS -->
+    <div class="shopping-cart-items shoppingCartItemsContainer">
+    </div>
+    <!-- ? END SHOPPING CART ITEMS -->
 
-        <!-- START TOTAL -->
-        <div class="container">
-            <h2>Total:</h2>
-            <h2 class="shoppingCartTotal">0$</h2>
-            <div class="">
-                <div class="toast-header">
-                </div>
-                <div class="cart-icon" id="cart-icon">
-                    <a href="home.html">
-                        <p>>>>Back to Home</p>
-                    </a>
-                </div>
+    <!-- START TOTAL -->
+    <div class="container">
+        <h2>Total:</h2>
+        <h2 class="shoppingCartTotal">0$</h2>
+        <div class="shoppingCartTotal">
+            <button class="comprarButton" type="button">Comprar</button>
+            <div>
+                <a href="home.html">
+                    <p>⬅ Back to Home</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="cart.js" type="module"></script>
 </body>
 
 </html>
