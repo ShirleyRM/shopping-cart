@@ -109,6 +109,7 @@ span:hover{
     width: 180px;
     height:45px;
     outline: none;
+    cursor: pointer;
 }
 .addToCart:hover{
     background-color: #2BB2BC;
