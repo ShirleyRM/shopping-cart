@@ -41,9 +41,8 @@ main {
 h1{
     margin:auto;
     display:block;
-    vertical-align: center;
 }
-p, h2{
+p, h2, h3{
     color: #fff;
 }
 img{
@@ -51,8 +50,17 @@ img{
     align-items: center;
     max-width: 220px;
     min-width: 190px;
+    cursor: pointer;
 }
-.input {
+
+img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+input {
     color:rgb(207, 20, 29);
 }
 
@@ -85,9 +93,22 @@ img{
     cursor: pointer;
     outline: none;
     border-radius: .25rem;
+        display: flexbox;
+    align-items: center;
 }
-
-#movies{
+#shop{
+    color: white;
+    background-color: rgb(20, 20, 20);
+    min-height: 39px;
+    font-weight: 400px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: .25rem;
+}
+#card{
     align-items: center;
     display: flexbox;
     justify-content: center;
