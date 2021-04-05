@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-image: url(img/popwall-.jpg);
     background-attachment: fixed;
@@ -7,110 +10,50 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    position: fixed;
-    display: flex;
-    top: 0;
-    width: 100%;
+header{ 
+    align-items: center;
     background-color: rgba(3, 3, 3, 0.466); 
-    align-items: center;
-    justify-content: center;
-}
-.content{
-    font-size: 25px;
-    color: rgb(228, 11, 11);
-    text-shadow: 1px 2px rgb(255, 255, 255);
-    margin: 50px 0px 20px 0px;
-    max-width: 1200px;
-}
-
-main {
+    color: rgb(235, 12, 12);
     display: flex;
-    flex-direction: column;
-    margin-top: 180px;
-    width: 100vw;
-    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    text-shadow: 1px 2px rgb(238, 238, 238);
+    width: 100%;
 }
 
-.container {
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 300;
+#card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5em;
+    grid-template-rows: minmax(100px, auto);
 }
 
-h1{
-    margin:auto;
-    display:block;
+.card-grid {
+    background-color: rgba(163, 141, 141, 0);
+    padding: 1em;
 }
-p, h2, h3{
-    color: #fff;
-}
-img{
-    display: flexbox;
-    align-items: center;
+
+#card img{
     max-width: 220px;
     min-width: 190px;
     cursor: pointer;
 }
-
-img:hover{
-    -webkit-transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;
+.container{
+    background-color: rgba(24, 5, 5, 0.808);
+    display: flex;
+    flex-direction: column;
+    border-radius: .20rem;
+    margin:0.5em;
+    place-items: center;
 }
 
-input {
-    color:rgb(207, 20, 29);
+.container:hover{
+    border: 1px solid #f8f8f8;
 }
 
-#form-search{
-    margin-bottom: 1rem;
-}
-
-#search{
-    width: 760px;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    outline: rgb(28, 28, 29);
-    color: rgb(41, 40, 44);
-    background-color: rgba(182, 182, 182, 0.377);
-    border: 1px solid white;
-    border-radius: .25rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-#btn{
-    color: white;
-    background-color: rgb(20, 20, 20);
-    min-height: 39px;
-    font-weight: 400px;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    border-radius: .25rem;
-        display: flexbox;
-    align-items: center;
-}
-#shop{
-    color: white;
-    background-color: rgb(20, 20, 20);
-    min-height: 39px;
-    font-weight: 400px;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    border-radius: .25rem;
-}
-#card{
-    align-items: center;
-    display: flexbox;
+.card-content{
     justify-content: center;
-    padding: 40px;
+}
+p, h2, h3{
+    color: #fff;
 }
