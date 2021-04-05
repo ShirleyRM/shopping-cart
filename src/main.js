@@ -1,4 +1,5 @@
-fetch('http://www.omdbapi.com/?s=name&apikey=6a29d8c5')
+fetch('http://www.omdbapi.com/?s=harry+potter&apikey=1d0a44db')
+
   .then(response => response.json())
   .then(data => {
     console.log(data)
