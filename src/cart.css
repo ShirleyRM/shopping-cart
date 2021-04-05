@@ -18,9 +18,7 @@ p{
 h1{
     color: rgb(20, 128, 136);
 }
-a{
-    padding: 30px;
-}
+
 a:visited {
     color:rgb(20, 128, 136);
     font-size: 20px;
@@ -59,4 +57,9 @@ a:active {
     outline: none;
     cursor: pointer;
     justify-content: center;
+}
+
+.container{
+    justify-content: center;
+    align-items: right;
 }

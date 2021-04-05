@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
 }
 body{
     background-image: url(img/popwall.jpg);
@@ -14,21 +13,15 @@ body{
 nav{ 
     align-items: center;
     background-color:#08181ae3; 
+    display: flex;
     justify-content: center;
     width: 100%;
-    display: grid;
-    grid-template-columns: 90% 10%;
-    padding:0.5em;
-
 }
 
-.logo img{
+#logo{
     width: 40%;
-    display: flex-end;
-}
-
-#cart-icon {
-    justify-content: space-between;
+    padding: 30px;
+    justify-content: center;
 }
 
 .welcome{
@@ -94,6 +87,7 @@ nav{
 p, h2, h3{
     color: rgb(14, 69, 114);
 }
+
 h3:hover{
     color:#2BB2BC;
 }
@@ -101,11 +95,13 @@ h3:hover{
 span{
     color:#2BB2BC;
 }
+
 span:hover{
     color: rgb(14, 69, 114);
 }
+
 .addToCart{
-    background-color: #e2b933;
+    background-color: #ebbd29;
     font-weight: bold;
     font-size: 15px;
     border-color:#daba50;
@@ -114,7 +110,7 @@ span:hover{
     width: 180px;
     height:45px;
     outline: none;
-    cursor: pointer;
+    cursor:pointer;
 }
 .addToCart:hover{
     background-color: #2BB2BC;
